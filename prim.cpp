@@ -1,6 +1,18 @@
 #include "prim.h"
 
 int main() {
-  cout << "Hello, World!" << endl; // Output text to the console
-  return 0; // Indicate successful execution
+    string myText;
+
+    ifstream MyReadFile("C:/Users/suhajdaz3219/Desktop/Algorithms/Prims Algorithm/prim-s-algorithm-assignment-ZacharySuhajda/testdata.txt");
+
+    if (MyReadFile.is_open()) {
+        while (std::getline(MyReadFile, myText)) {
+            cout << myText << endl;
+        }
+        MyReadFile.close();
+    } else {
+        cerr << "Error: Unable to open the file." << endl;
+    }
+
+    return 0;
 }
