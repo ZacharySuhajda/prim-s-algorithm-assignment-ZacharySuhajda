@@ -216,7 +216,7 @@ int main() {
 
 	//Variables
 	//--------------------------------------------------------------------------------------------------------
-  ifstream MyReadFile("C:/Users/suhajdaz3219/Desktop/Algorithms/Prims Algorithm/prim-s-algorithm-assignment-ZacharySuhajda/testdata0.txt");
+  ifstream MyReadFile("C:/Users/suhajdaz3219/Desktop/Algorithms/Prims Algorithm/prim-s-algorithm-assignment-ZacharySuhajda/testdata1.txt");
   string line; // temp string to store lines read from the file
 	vector<Edge> edgesList; // List of all the edges in the graph
 	int nodes; // Number of nodes
